@@ -1,0 +1,51 @@
+#screen {
+	position: absolute;
+}
+#main {
+	width: 450px;
+	text-align: center;
+	padding: 115px 20px;
+	/*padding: 115px 20px;*/
+	/*  length of visible screen is 450 */
+}
+#centered {
+}
+#bgbg {
+	margin: 110px 20px;
+	position: fixed;
+	background-color: pink;
+	width:450px;
+	height:800px;
+}
+body {
+}
+.px64 {
+	width:64px;
+	height:64px;
+}
+
+#before1{
+	display:block;
+}
+
+#after1{
+	display:none;
+}
+#map {
+	width: 450px;
+	display:none;
+	text-align: center;
+	padding: 115px 20px;
+	z-index: 10;
+}
+#checklist {
+	display:none;
+		width: 450px;
+	text-align: center;
+	padding: 115px 20px;
+}
+
+li {
+	font-size: 3EM;
+	list-style-type: none;
+}
