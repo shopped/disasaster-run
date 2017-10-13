@@ -23,13 +23,19 @@ body {
 	width:64px;
 	height:64px;
 }
-
+.red {
+	background-color:red;
+}
 #before1{
 	display:block;
 }
 
 #after1{
 	display:none;
+}
+
+#w400 {
+	width:400px;
 }
 #map {
 	width: 450px;
@@ -48,4 +54,9 @@ body {
 li {
 	font-size: 3EM;
 	list-style-type: none;
+}
+
+.top {
+	position:fixed;
+	top: 1050px;
 }

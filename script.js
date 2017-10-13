@@ -1,7 +1,7 @@
 var counter = 0;
 
 
-var zero = function() {
+var four = function() {
 	$('#main').css("display", "block");
 	$('#checklist').css("display", "none");
 	$('#map').css("display", "none");
@@ -34,8 +34,8 @@ var three = function() {
 
 function foo() {
 	counter++;
-	if (counter == 4)
-		counter = 0;
+	if (counter == 5)
+		counter = 3;
 	switch(counter) {
 		case 0:
 			zero();
@@ -48,6 +48,9 @@ function foo() {
 			break;
 		case 3:
 			three()
+			break;
+		case 4:
+			four()
 			break;
 		default:
 			break;
